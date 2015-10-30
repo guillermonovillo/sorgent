@@ -1,0 +1,210 @@
+.tab-bar{
+	height: 120px;
+	line-height: 120px;
+	background: #FFFFFF;
+    transition: all .5s ease-in-out;
+	
+	img{
+		width: 300px;
+		max-width: 300px;
+	}
+
+	.menu-desktop{
+		float: right;
+		margin-top: 40px;
+
+		li{
+			float: left;
+			font-family: "ff-enzo-web";
+			font-weight: 300;
+			font-style: normal;
+			@include text-size(1.3em)
+			
+		}
+	}
+	.off-canvas-list li a {
+		font-weight: 600;
+		color: #333333;
+		border-bottom: none;
+		padding: 1em;
+		
+		&:hover{
+			background-color: transparent;
+			@include animationAll(.5s);
+			color: $bordo;
+		}
+		&.current-menu-item{
+			text-decoration: underline;
+			color: $bordo;
+		}
+	}
+}
+.right-off-canvas-menu{
+	li{
+		font-family: "ff-enzo-web";
+		font-weight: 300;
+		font-style: normal;
+		@include text-size(1.3em)
+	}
+}
+.close-menu-mobile{
+	display: none;
+	visibility: hidden;
+}
+.offcanvas-overlap .exit-off-canvas {
+	-webkit-backface-visibility: hidden;
+	transition: background 300ms ease;
+	cursor: pointer;
+	box-shadow: -4px 0 4px rgba(0, 0, 10px, .8), 4px 0 4px rgba(0, 0, 10px, .8);
+	display: block;
+	position: absolute;
+	background: rgba(0, 0, 0, .8);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1002;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.offcanvas-overlap .exit-off-canvas:hover {
+	background: rgba(0, 0, 0, .6);
+}
+@media #{$small-only} { 
+	
+}
+@media screen and (min-width: 0em) and (max-width:56.250em){
+	.bg-nav {
+		position: fixed;
+		width: 100%;
+		z-index: 9;
+		box-shadow: 0px 0px 10px #000000;
+	}
+	.tab-bar{
+		height: 70px;
+  		line-height: 70px;
+  		position: relative;
+
+  		img{
+			width: 220px;
+		}
+	}
+	.right-small{
+		top: 20%;
+		right: 20px;
+		border-left: none;
+
+		.menu-icon span::after{
+			box-shadow: 0 0 0 1px $bordo, 0 7px 0 1px $bordo, 0 14px 0 1px $bordo;
+		}
+	}
+	.right-small{
+		display:block;
+		visibility: visible;
+	}
+	.close-menu-mobile{
+		display: block;
+		visibility: visible;
+	}
+	.right-off-canvas-menu{
+		display:block;
+		visibility: visible;
+		background: #FFFFFF;
+
+		.right-off-canvas-toggle{
+			color: $bordo;
+			font-size: 50px;
+			background: transparent;
+			margin: 0 7%;
+		}
+
+		ul.off-canvas-list {
+			margin: 0 23%;
+
+			li a {
+			    display: block;
+				color: #333333;
+				border-bottom: none;
+				padding: 5px 0;
+				font-size: 16px;
+			
+				&:hover{
+					background-color: transparent;
+					@include animationAll(.5s);
+					color: $bordo;
+				}
+				&.current-menu-item{
+					text-decoration: underline;
+					color: $bordo;
+				}
+			}
+		}
+	}
+	.menu-desktop{
+		display:none;
+		visibility: hidden;
+	}
+}
+@media screen and (min-width:56.313em) and (max-width: 78.125em){
+
+	.right-small{
+		top: 30%;
+		right: 20px;
+		border-left: none;
+
+		.menu-icon span::after{
+			box-shadow: 0 0 0 1px $bordo, 0 7px 0 1px $bordo, 0 14px 0 1px $bordo;
+		}
+	}
+	.right-small{
+		display:block;
+		visibility: visible;
+	}
+	.close-menu-mobile{
+		display: block;
+		visibility: visible;
+	}
+	.right-off-canvas-menu{
+		display:block;
+		visibility: visible;
+		background: #FFFFFF;
+		
+		.right-off-canvas-toggle{
+			color: $bordo;
+			font-size: 50px;
+			background: transparent;
+			margin: 0 7%;
+		}
+
+		ul.off-canvas-list {
+			margin: 0 23%;
+
+			li a {
+			    display: block;
+				color: #333333;
+				border-bottom: none;
+				padding: 5px 0;
+				font-size: 16px;
+			
+				&:hover{
+					background-color: transparent;
+					@include animationAll(.5s);
+					color: $bordo;
+				}
+				&.current-menu-item{
+					text-decoration: underline;
+					color: $bordo;
+				}
+			}
+		}
+	}
+	.menu-desktop{
+		display:none;
+		visibility: hidden;
+	}
+}
+@media #{$medium-only} {
+
+}
+@media #{$large-only} {
+
+}

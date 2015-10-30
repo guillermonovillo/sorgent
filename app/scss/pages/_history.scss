@@ -1,0 +1,318 @@
+.history{
+	
+	.banner-history{
+		
+		height: 48em;
+		position: relative;
+		margin-bottom: 11em;
+
+		.box-info{
+		  	width:30em;
+		  	height:30em;
+		  	display: table;
+		  	background: $celeste;
+		  	@include animationAll(.5s);
+		  	cursor: pointer;
+		  	text-transform: uppercase;
+		  	position: absolute;
+		  	bottom: -70px;
+
+		  	&:hover{
+		  		background: $celeste-over;
+		  		@include animationAll(.5s);
+		  	}
+
+		  	p{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+		  	}
+		}
+		
+		.img-left-banner{
+
+			background-image: url(../img/img-left-history.jpg);
+
+		}
+		.img-right-banner{
+
+			background-image: url(../img/img-right-history.jpg);
+
+		}
+	}
+	.thumb-video-history{
+		width: 200px;
+		height: 100px;
+		background: $gris-oscuro;
+		position: relative;
+		padding: 0;
+  		font-family: "ff-enzo-web";
+		font-weight: 300;
+		font-style: normal;
+  		font-size: 1.3em;
+  		text-align: left;
+  		margin-top: 170px;
+		
+		img{
+			float: left;
+		}
+		.box-thumb-grey{
+			display: table;
+			height: 100px;
+
+			a{
+				display: table-cell;
+				vertical-align: middle;
+				padding: 0 10px;
+				color: $white;
+			}
+			img{
+				float: none;
+				margin-left: 8px;
+			}
+		}
+	}
+	.top-content-history{
+		.column{
+			padding-left: 0;
+		}
+		div:first-child{
+			padding: 0 35px 0 0;
+		}
+		h3{
+			color: $celeste;
+	  		font-family: "ff-enzo-web";
+			font-weight: 300;
+			font-style: normal;
+	  		font-size: 2.6em;
+			text-align: left;
+			letter-spacing: 2px;
+			line-height: 36px;
+			padding: 0;
+		}
+	}
+	.time-line-history{
+		
+		margin: 7em auto;
+
+		.title-time-line-history{
+			
+			padding: 0;
+			margin: 3em 0;
+
+			p{
+				color: $celeste;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 2.6em;
+				text-align: left;
+				letter-spacing: 2px;
+				line-height: 1.2;
+				padding: 0;
+			}
+
+		}
+		.year-time-line{
+
+			margin: 4em 0;
+			padding: 0;
+
+			p {
+
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 7em;
+				text-align: left;
+				padding: 0;
+				color: $celeste;
+				line-height: 50px;		
+				letter-spacing: -2px;
+			}
+		}
+		.legend-time-line{
+			
+			padding: 0 1em;
+			margin: 3em 0;
+			border-left: solid 2px $celeste;
+
+		}
+		.logo-giglio-history{
+
+			margin-top: 200px;
+			transform: rotate(20deg);
+
+		}
+	}
+}
+@media #{$small-only} {
+
+	.history{
+	
+		.banner-history{
+			
+			height: 380px;
+			position: relative;
+			margin: 7em 0 0 0;
+		}
+		.top-content-history{
+			padding: 0;
+			div:first-child{
+				padding: 0;
+			}
+			p{
+				padding: 0 0.625rem;
+			}
+			h3{
+				margin: 50px 0;
+			}
+			.column{
+				padding-left: 0.625rem
+			}
+		}
+		.thumb-video-history{
+	  		margin: 50px auto 40px;
+			
+		}	
+		.box-info{
+		  	display: table;
+		  	width: 100%;
+		  	height: 21em;
+		  	padding: 0;
+		  	background: $celeste;
+		  	@include animationAll(.5s);
+		  	cursor: pointer;
+		  	text-transform: uppercase;
+		  	position: relative;
+		  	bottom: 0;
+
+		  	&:hover{
+		  		background: $celeste-over;
+		  		@include animationAll(.5s);
+		  	}
+
+		  	p{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+		  	}
+		}
+		.time-line-history{
+			
+			margin: 20px 0 0 0;
+
+		    .year-time-line{
+
+		    	margin: 30px 0px -5px;
+	    		padding: 0;
+
+		    	p{
+		    		display: inline-block;
+		    		margin: 0 20px 0 0;
+		    		padding: 30px 0;
+		    		font-size: 7.5em;
+		    	}
+		    	p:last-child{
+		    		margin: 0 20px 0 0;
+		    		padding: 30px 0;
+		    	}
+
+		    	p:first-child{
+		    		padding: 30px 0;
+		    		border-bottom: solid 2px $celeste;
+		    	}
+		    }
+
+			.title-time-line-history{
+			    padding: 0 0 0 0.625rem;
+			    margin: 0;
+
+			}
+			.legend-time-line{
+				border-left: none;
+				padding: 0;
+			}
+		}
+	}
+}
+@media #{$medium-only} {
+
+	.history{
+	
+		.banner-history{
+			
+			height: 400px;
+			position: relative;
+			margin: 7em 0 7em 0;
+
+			.img-right-banner{
+
+				background-image: none;
+
+			}
+			.box-info{
+
+				position: absolute;
+				display: block;
+				bottom: 0;
+				top: 0;
+				width: 50%;
+				right: 0;
+				height: 100%;
+				
+				p{
+					display: inline-block;
+					padding: 37px 17px;
+					width: 69%;
+				}
+			}
+		}
+		.top-content-history{
+			h3{
+				margin: 0 0 70px 0;
+			}
+			.column{
+				padding-left: 1em;
+			}
+		}
+		.thumb-video-history{
+	  		margin: 32px auto 70px;
+			
+		}
+		.time-line-history{
+
+			.title-time-line-history{
+			    padding: 0 0 0 0.625rem;
+			    margin: 0;
+			}
+			.legend-time-line-medium{
+
+				img{
+					position: absolute;
+					right: 0px;
+					bottom: 0px;
+					transform: rotate(20deg);
+					width: 112px;
+				}
+
+			}
+		}
+	}
+}

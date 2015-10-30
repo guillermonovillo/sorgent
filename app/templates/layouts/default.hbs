@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorgente Development :: {{title}}</title>
+
+    <meta name="description" content="Sorgente Group of America's development arm operates in the USA and focuses on sustainable developments.">
+    <meta name="keywords" content="Luxury NYC Condo, NYC Developer, Tribeca Developer, Real Estate Developer NYC, Sustainable NYC Developer, Sorgente Group of America, 60 White Street, 34 Greene Street, Giglio projects, Italian Developer, Flatiron Owner, nyc condo, luxury condo, flatiron offices, Developer">
+
+
+    <!-- build:css css/libraries.min.css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/chosen_v1.4.1/chosen.min.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick-theme.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:css css/app.min.css -->
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/app_override.css">
+    <!-- endbuild -->
+    
+    <!-- build:js js/vendor/modernizr.min.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+    
+    
+<script src="//use.typekit.net/jak5zes.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+    
+    
+    {{>favicons}}    
+    
+  </head>
+
+  <body class="{{body_classes}}">
+    <!--{{#is title "Apartments"}} class="current-menu-item"{{/is}}-->
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <div class="bg-nav large-12 medium-12 small-12" data-0="position: fixed;background: #FFFFFF;width:100%" data-30="background: #FFFFFF;position: fixed;width:100%;z-index:9;box-shadow: #999999 0px 0px 10px;">
+            <nav class="row tab-bar" data-0="height: 120px;line-height:120px" data-30="position: relative;height: 70px;line-height:70px;transition: all .5s ease-in-out;z-index:9">
+                <a href="index.html">
+                    <img src="img/logo-header.png" alt="" data-0="transition: all .5s ease-in-out;width:300px" data-30="transition: all .5s ease-in-out;width:258px">
+                </a>
+                <section class="menu-desktop" data-0="transition: all .5s ease-in-out;margin-top:40px" data-30="transition: all .5s ease-in-out;margin-top:10px">
+                    {{> nav }}
+                </section>
+
+                <section class="right-small">
+                    <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+                </section>
+            </nav>
+        </div>  
+
+        <aside class="menu-mobile right-off-canvas-menu">
+          {{> nav }}
+        </aside>
+
+        <section class="main-section" data-0="margin-top: 120px" data-30="margin-top: 70px;transition: all .5s ease-in-out">
+          {{> body }}
+          {{> footer }}
+        </section>
+      <a class="exit-off-canvas"></a>
+      </div>
+    </div>
+
+    <!-- build:js js/vendor/libraries.min.js -->
+    <!-- bower:js -->
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="../../bower_components/jquery.cookie/jquery.cookie.js"></script>
+    <!-- endbower -->
+    <script src="bower_components/skrollr-menu/dist/skrollr.menu.min.js"></script>
+    <script src="bower_components/chosen_v1.4.1/chosen.jquery.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/vendor/foundation.min.js -->
+    <script src="bower_components/foundation/js/foundation/foundation.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+    
+<!--
+    <script src="bower_components/foundation/js/foundation/foundation.slider.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.joyride.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
+-->
+    <!-- endbuild -->
+    <!-- build:js js/app.min.js -->
+    <script src="js/app.js"></script>
+    <!-- endbuild -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-52982068-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

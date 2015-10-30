@@ -1,0 +1,329 @@
+.video-modal{
+	max-width: 720px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: transparent;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	position: absolute;
+	@include animationAll(.5s);
+
+	.close-reveal-modal{
+		color: $bordo;
+		z-index: 9999;
+
+		&:hover{
+	  		color: $gris-oscuro-over;
+	  		@include animationAll(.5s);
+	  	}
+	}
+}
+
+.documentary{
+
+	.banner{
+		background-image: url('../img/img-central-documentary.jpg');
+		background-position: center bottom;
+		background-size: cover;
+		height: 48em;
+		width: 100%;
+		background-repeat: no-repeat;
+		left: 0;
+		top: 0;
+		position: relative;
+		
+		.box-info{
+		  	width:30em;
+		  	height:30em;
+		  	display: table;
+		  	background: $marron;
+		  	@include animationAll(.5s);
+		  	cursor: pointer;
+		  	text-transform: uppercase;
+		  	position: absolute;
+		  	bottom: -70px;
+
+		  	&:hover{
+		  		background: $gris-oscuro-over;
+		  		@include animationAll(.5s);
+		  	}
+
+		  	p{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+		  	}
+		}
+	}
+	.content-documentary{
+
+		margin: 0 auto 60px auto;
+		
+		.video{
+			padding: 0;
+			position: relative;
+			max-width: 480px;
+			margin: 14em 0 0 0;
+
+			.box-video{
+				width:21em;
+			  	height:21em;
+			  	display: table;
+			  	background: $gris-oscuro;
+			  	@include animationAll(.5s);
+			  	cursor: pointer;
+			  	text-transform: uppercase;
+			  	position: absolute;
+			  	top: 0;
+			  	right:-22%;
+
+			  	&:hover{
+			  		background: $gris-oscuro-over;
+			  		@include animationAll(.5s);
+			  	}
+
+			  	.content-box-video{
+
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+					display: table-cell;
+					vertical-align: middle;
+					padding: 17px;
+
+					p{
+				  		color: $white;
+				  		font-size: 2.6em;
+						text-align: left;
+						letter-spacing: 2px;
+						line-height: 1.2;
+					}
+				  	span{
+				  		font-size: 13px;
+				  		position: relative;
+				  		color: $white;
+
+				  		img{
+				  			margin: 0 1em 0 0;
+				  		}
+				  	}
+			  	}
+			}
+		}
+
+		.copy-documentary{
+
+			margin: 7em 0 0 0;
+
+			.title-documentary{
+
+				font-size: 2.6em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				color: #8f9a9d;
+				margin: 0 0 2em 0;
+			}
+
+			img{
+				margin: 3em 0 0 0;
+  				transform: rotate(20deg);
+			}
+
+		}
+	}
+}
+@media #{$small-only} {
+	
+	.video-modal{
+
+		.close-reveal-modal{
+
+			top: 28px;
+			right: 38px;
+		}
+	}
+
+	.documentary{
+
+		.banner {
+		    background-position: -458px 70px;
+		    height: 370px;
+		    width: 100%;
+		    background-repeat: no-repeat;
+		    left: 0px;
+		    top: 0px;
+		    position: relative;
+		    background-image: url("../img/img-central-documentary.jpg");
+		    background-size: cover;
+
+		    .box-info {
+			    bottom: -70px;
+			    right: 0;
+			    width: 100%;
+			    height: 21em;
+			}
+		}
+
+		.content-documentary {
+			
+			padding: 0;
+
+			.content-video-small{
+			
+				padding:0;
+			}
+
+			.box-info-small-documentary{
+				
+				.box-info{
+
+				  	width: 100%;
+				  	height: 17em;
+				  	display: table;
+				  	background: $marron;
+				  	@include animationAll(.5s);
+				  	cursor: pointer;
+				  	text-transform: uppercase;
+				  	position: relative;
+				  	bottom: 0;
+
+				  	&:hover{
+				  		background: $gris-oscuro-over;
+				  		@include animationAll(.5s);
+				  	}
+
+				  	p{
+				  		color: $white;
+				  		font-family: "ff-enzo-web";
+						font-weight: 300;
+						font-style: normal;
+				  		font-size: 3em;
+						display: table-cell;
+						vertical-align: middle;
+						text-align: left;
+						letter-spacing: 2px;
+						padding: 17px;
+						line-height: 1.2;
+				  	}
+				}
+
+			}
+
+			.video {
+
+			    margin: 7em auto 50px auto;
+			    left: 0;
+			    max-width: 100%;
+
+			    .img-video-bg{
+			    	background-position: center bottom;
+				    height: 300px;
+				    width: 100%;
+				    background-repeat: no-repeat;
+				    left: 0px;
+				    top: 0px;
+				    position: relative;
+				    background-image: url("../img/img-video-documentary.jpg");
+				    background-size: cover;
+
+			    }
+			    .box-video {
+				    width: 100%;
+				    height: 17em;
+				    top: 0px;
+				    right: 0;
+				    position: relative;
+				}
+			}
+			.copy-documentary {
+				position: relative;
+			    margin: 0;
+
+			    img{
+			    	position: relative;
+					transform: rotate(-20deg);
+					margin: -6% 50%;
+			    }
+			}
+		}
+	}
+
+	.video-modal{
+		 padding: 1.875rem;
+	}
+}
+
+@media #{$medium-only} {
+	
+	.video-modal{
+
+		.close-reveal-modal{
+
+			top: 28px;
+			right: 38px;
+		}
+	}
+
+	.documentary{
+
+		.banner {
+		    margin: 7em 0;
+			background-position: -458px;
+		    height: 40em;
+		    width: 100%;
+		    background-repeat: no-repeat;
+		    left: 0px;
+		    top: 0px;
+		    position: relative;
+		    background-image: url("../img/img-central-documentary.jpg");
+		    background-size: cover;
+
+		    .box-info {
+			    bottom: 0;
+			    right: 0;
+			    width: 50%;
+			    height: 100%;
+			    display: block;
+
+			    p{
+			    	display: inline-block;
+			  		padding: 37px 17px;
+			  		vertical-align: baseline;
+			    }
+			}
+		}
+
+		.content-documentary {
+
+			.video {
+
+			    margin: 14em auto 50px auto;
+			    left: -8%;
+			}
+			.copy-documentary {
+				position: relative;
+			    margin: 0;
+
+			    img{
+			    	position: relative;
+					transform: rotate(-20deg);
+					margin: -14% 0px 0px 19%;
+			    }
+			}
+		}
+	}
+	.video-modal{
+		 padding: 1.875rem;
+	}
+}

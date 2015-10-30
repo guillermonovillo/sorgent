@@ -1,0 +1,350 @@
+.giglio-white{
+	
+	margin: 0 0 100px 0;
+
+	.banner-giglio-white{
+		background-image: url('../img/img-central-white.jpg');
+		background-position: center bottom;
+		background-size: cover;
+		height: 48em;
+		width: 100%;
+		background-repeat: no-repeat;
+		left: 0;
+		top: 0;
+		position: relative;
+	}
+	.box-info{
+	  	height:30em;
+	  	display: table;
+	  	background: $bordo;
+	  	@include animationAll(.5s);
+	  	cursor: pointer;
+	  	text-transform: uppercase;
+	  	position: absolute;
+		bottom: -70px;
+		max-width: 29em;
+		width: 24%;
+
+	  	&:hover{
+	  		background: $bordo-over;
+	  		@include animationAll(.5s);
+	  	}
+
+	  	p{
+	  		color: $white;
+	  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+	  		font-size: 3em;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: left;
+			letter-spacing: 2px;
+			padding: 17px;
+			line-height: 1.2;
+	  	}
+	}
+	.section-1-giglio-white{
+		
+		padding: 0 20px;
+
+		.content-1-section{
+			max-width: 50%;
+			float: left;
+			padding: 0;
+			width: 600px;
+			margin: 7em 0 0 0;
+
+			.box-1-section{
+				padding: 0;
+
+				img{
+					margin: 0 0 30px 0;
+				}
+				p:last-child{
+					width: 90%;
+				}
+			}
+		}
+		.copy-giglio-white{
+
+			padding: 0;
+			margin: 7em 0 0 0;
+
+			p{
+				padding: 0;
+			}
+
+			.title-giglio-white{
+
+				font-size: 2.6em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				color: $bordo;
+				margin: 0 0 2em 0;
+				letter-spacing: 1px;
+				line-height: 1.2;
+				padding: 0;
+			}
+			.box-100{
+			  	width:10em;
+			  	height:10em;
+			  	display: table;
+			  	background: $bordo;
+			  	@include animationAll(.5s);
+			  	cursor: pointer;
+			  	position: relative;
+			  	top: 26px;
+
+			  	&:hover{
+			  		background: $bordo-over;
+			  		@include animationAll(.5s);
+			  	}
+
+			  	p{
+			  		color: $white;
+			  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+			  		font-size: 13px;
+					display: table-cell;
+					vertical-align: middle;
+					text-align: left;
+					letter-spacing: 2px;
+					padding: 10px;
+					line-height: 1.3;
+			  	}
+			}
+		}
+	}	
+	.section-2-giglio-white{
+
+		padding: 0 20px;
+
+		.logo-giglio-white{
+			position: absolute;
+			top: -73px;
+			right: -51px;
+			z-index: 1;
+			transform: rotate(20deg);
+		}
+
+		.box-color{
+			padding: 0;
+		}
+
+		.map-content{
+			
+			top: 990px;
+			position: absolute;
+			right: 10px;
+			
+			.map{
+				max-width: 600px;
+				height: 323px;
+			}
+
+			.title-map{
+
+				font-size: 2.6em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				color: #8f9a9d;
+				margin: 0 0 40px 0;
+				letter-spacing: 2px;
+				line-height: 1.2;
+			}
+		}
+
+		.box-210{
+			width:21em;
+		  	height:21em;
+		  	display: table;
+		  	background: $gris-oscuro;
+		  	@include animationAll(.5s);
+		  	cursor: pointer;
+		  	text-transform: uppercase;
+		  	position: relative;
+		  	top: 36px;
+  			left: 0;
+
+
+		  	&:hover{
+		  		background: $gris-oscuro-over;
+		  		@include animationAll(.5s);
+		  	}
+		  	a{
+
+		  		display: table-cell;
+		  		vertical-align: middle;
+
+				p{
+			  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+					padding: 17px;
+			  		color: $white;
+			  		font-size: 2.6em;
+					text-align: left;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+				div{
+			  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+			  		color: $white;
+			  		font-size: 1.3em;
+					text-align: left;
+					letter-spacing: 2px;
+					line-height: 1.3;
+					padding: 17px;
+				}
+			}
+		}
+	}
+}
+@media #{$small-only} {
+
+	.giglio-white{
+
+		.banner-giglio-white{
+
+			height: 37em;
+			margin: 70px 0 0 0;
+		}
+		.box-info{
+
+		  	bottom: 0;
+		  	width: 100%;
+		  	height: 21em;
+		  	right: 0;
+		  	max-width: 100%;
+		  	position: absolute;
+		  	top: 100%;
+		}
+		.section-1-giglio-white{
+			
+			margin: 19em 0 0 0;
+
+			.content-1-section{
+				float: none;
+				max-width: 100%;
+				width: 100%;
+				margin: auto;
+
+				.box-1-section{
+				
+					img{
+						width: 100%;
+						margin: 0;
+					}
+				}
+			}
+			.copy-giglio-white {
+				margin: 7em 0;
+			}
+		}
+		.section-2-giglio-white{
+			
+			.box-210{
+				margin: auto;
+			}
+			.map-content{
+
+				position: relative;
+				top: 0;
+				padding: 0;
+				right: 0;
+				
+				.map{
+
+					margin: auto;
+					width: 100%;
+					height: 230px;
+					max-width: 100%;
+				}
+				.title-map {
+
+					width: 600px;
+					margin: 1em auto 40px auto;
+				}
+			}
+		}
+	}
+	
+}
+@media #{$medium-only} {
+
+	.giglio-white{
+
+		.banner-giglio-white{
+			background-position: right bottom;
+			height: 40em;
+			margin: 70px 0 0 0;
+		}
+		.box-info{
+		  	bottom: 0;
+		  	width: 50%;
+		  	height: 100%;
+		  	right: 0;
+		  	max-width: 50%;
+		}
+		.section-1-giglio-white{
+			
+			padding: 0 20px;
+
+			.content-1-section{
+				float: none;
+				max-width: 100%;
+				width: 100%;
+				margin: auto;
+
+				img{
+					width: 100%;
+				}
+			}
+			.copy-giglio-white{
+				
+				margin: 7em 0 5em 0;
+
+				.box-100{
+				  	position: absolute;
+				  	bottom: 30px;
+				  	top: auto;
+				}
+				p{
+					padding: 0 20px;
+				}
+			}
+		}
+		.section-2-giglio-white{
+			
+			.box-210{
+				margin: auto;
+			}
+			.logo-giglio-white {
+				position: absolute;
+				top: 140px;
+				left: -5px;
+				width: 100px;
+			}
+			.map-content{
+				position: relative;
+				top: 0;
+				right: 0;
+				
+				.map{
+					margin: auto;
+				}
+				.title-map {
+
+					width: 600px;
+					margin: 1em auto 40px auto;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+---
+title: Contact Sorgente Group of America
+body_classes: 'Contact'
+---
+<div id="skrollr-body">
+<main role="main" class="contact">
+	<section class="banner-contact">
+		<div class="row">
+			<div class="large-3 medium-2 medium-offset-1 small-10 small-offset-1 column content-banner-left">
+				<p>Contact Us</p>
+			</div>
+			<div class="logo-banner large-3 medium-3 column">
+				<img src="img/logo-giglio-home.png" alt="" class="hide-for-small-only">
+			</div>
+			<div class="large-6 medium-6 small-12 column content-banner-right">
+				<div class="box-info">
+					<p>Learn More <br> About Life <br> in New York</p>
+				</div>
+				<div class="box-image hide-form-medium-only hide-for-small-only">
+					<figure></figure>
+				</div>
+			</div>
+		</div>
+	</section>
+	<article class="content-form row">
+	  <div class="large-offset-1 large-4 medium-6 medium-offset-6 small-12 column column-right-form">
+		<p class="large-12 medium-12 small-12">REGISTERED AND <br>OPERATIONAL OFFICE</p>
+		<p class="large-12 medium-12 small-12">594 Broadway, Suite 205 <br>
+	  New York, NY 10012; <br> Phone: <a href="tel:2125424290">212.542.4290</a></p>
+	  </div>  
+		<div class="large-7 medium-12 small-12 column column-left-form">
+			<p class="large-12 medium-12 small-12">PLEASE REGISTER <br>TO FIND OUT MORE INFORMATION</p>
+			<div>
+				<form id="contact-form" action="contact.php" method="POST" enctype="multipart/form-data">
+					<div class="large-6 medium-6 small-12 column">
+						<label for="firstName">FIRST NAME*</label>
+						<input id="firstName" name="firstName" type="text" class="required large-12 medium-12 small-12">
+					</div>
+					<div class="large-6 medium-6 small-12 column">
+						<label for="lastName">LAST NAME*</label>
+						<input id="lastName" name="lastName" type="text" class="required large-12 medium-12 small-12">
+					</div>
+					<div class="large-6 medium-6 small-12 column">
+						<label for="email">EMAIL*</label>
+						<input id="email" name="email" type="email" class="required large-12 medium-12 small-12">
+					</div>
+					<div class="large-6 medium-6 small-12 column">
+						<label for="phone">PHONE NUMBER</label>
+						<input id="phone" name="phone" type="text" class="large-12 medium-12 small-12">
+					</div>
+					<div class="large-6 medium-6 small-12 column">
+						<label for="cuestion">HOW DID YOU HEAR ABOUT US?</label>
+						<select data-placeholder="SELECT..." id="cuestion" name="cuestion" class="chosen-select large-6 medium-6 small-12">
+							<option disabled selected>SELECT...</option>
+							<option value="radio">RADIO</option>
+							<option value="tv">TV</option>
+							<option value="internet">INTERNET</option>
+							<option value="other">OTHER</option>
+						</select>
+					</div>
+					<div class="message large-6 medium-6 small-12 column">
+						<label for="message">MESSAGE*</label>
+						<textarea id="message" name="message" type="text" class="required large-12 medium-12 small-12"></textarea>
+						<div class="large-6 medium-6 small-12 column">
+							<span class="text-required">* Required fields</span>
+				<span class="text-error"></span>
+						</div>
+						<div class="btn-send large-6 medium-6 small-12 column text-right">
+							<button type="submit"><span>SEND</span><img src="img/arrow-send.png" alt=""></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</article>
+</main>
+<div id="thank" class="thank-modal reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <div class="content-thank">
+    <p class="title">THANK YOU</p>
+    <p class="sub-title">Your message has been submitted successfully.</p>
+  </div>
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>

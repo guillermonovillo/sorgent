@@ -1,0 +1,45 @@
+/**
+ * 
+ * SORGENTE
+ * 2015
+ *  
+ */
+
+// Tratemos de seguis los estilos de http://sass-guidelin.es/
+
+/*SE DEBERA DIVIDIR EN DOS ARCHIVOS EL APP.MIN.CSS COMPILADO PARA QUE LOS ESTILOS FUNCIONEN EN IE 9 UNICAMENTE*/
+
+/* UTILS */
+    // The utils/ folder gathers all Sass tools and helpers used across the project. Every global variable, function, mixin and placeholder should be put in here.
+    // The rule of thumb for this folder is that it should not output a single line of CSS when compiled on its own. These are nothing but Sass helpers. 
+ @import  "utils/variables";
+ @import  "utils/functions";
+ @import  "utils/mixins";
+ @import  "utils/sprite";
+
+/* BASE + COMPONENTS */
+    //  The base/ folder holds what we might call the boilerplate code for the project. In there, you might find the reset file, some typographic rules, and probably a stylesheet (that I'm used to calling _base.scss), defining some standard styles for commonly used HTML elements. */
+ @import  "base/base";
+
+/* LAYOUT */
+    //  The layout/ folder contains everything that takes part in laying out the site or application. This folder could have stylesheets for the main parts of the site (header, footer, navigation, sidebar...), the grid system or even CSS styles for all the forms.  */
+@import "layout/header";
+@import "layout/footer";
+
+/* COMPONENTS */
+    //  For smaller components, there is the components/ folder. While layout/ is macro (defining the global wireframe), components/ is more focused on widgets. It contains all kind of specific modules like a slider, a loader, a widget, and basically anything along those lines. There are usually a lot of files in components/ since the whole site/application should be mostly composed of tiny modules.*/
+
+/* PAGES */
+    //  If you have page-specific styles, it is better to put them in a pages/ folder, in a file named after the page. For instance, it’s not uncommon to have very specific styles for the home page hence the need for a _home.scss file in pages/. 
+@import  "pages/home";
+@import  "pages/history";
+@import  "pages/about";
+@import  "pages/documentary";
+@import  "pages/sustainability";
+@import  "pages/restoration";
+@import  "pages/energy";
+@import  "pages/giglio";
+@import  "pages/giglio-greene";
+@import  "pages/giglio-white";
+@import  "pages/contact";
+

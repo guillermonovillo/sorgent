@@ -1,0 +1,563 @@
+.energy {
+	
+	margin: 0 0 60px 0;
+	
+	.banner-energy {
+		
+		height: 48em;
+		position: relative;
+		
+		.box-info {
+			
+			width: 30em;
+			height: 30em;
+			display: table;
+			background: $celeste;
+			@include animationAll(.5s);
+			cursor: pointer;
+			text-transform: uppercase;
+			position: absolute;
+			bottom: -70px;
+			
+			&:hover {
+				background: $celeste-over;
+				@include animationAll(.5s);
+			}
+			p {
+				color: $white;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+			}
+		}
+		.img-left-banner {
+			
+			float: left;
+			background-position: center bottom;
+			background-size: cover;
+			height: 100%;
+			background-repeat: no-repeat;
+			left: 0;
+			top: 0;
+			background-image: url(../img/img-left-energy.jpg);
+		}
+		.img-right-banner {
+			
+			background-position: center bottom;
+			background-size: cover;
+			height: 100%;
+			background-repeat: no-repeat;
+			left: 0;
+			top: 0;
+			float: right;
+			background-image: url(../img/img-right-energy.jpg);
+		}
+	}
+	.section-1-energy {
+		
+		.content-1-section {
+			
+			max-width: 50%;
+			float: left;
+			padding: 0;
+			width: 600px;
+			margin: 15em 0 0 0;
+			
+			.box-1-section {
+				
+				padding: 0;
+				
+				img {
+					margin: 0 0 30px 0;
+				}
+				p:last-child {
+					width: 90%;
+				}
+			}
+			.title-1-section {
+				
+				font-size: 1.8em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				margin: 0 0 30px 0;
+				color: $celeste;
+			}
+			.logo-giglio {
+				
+				position: absolute;
+				top: 78px;
+				right: -74px;
+				transform: rotate(20deg);
+			}
+		}
+		.copy-energy {
+			
+			margin: 7em 0 0 0;
+			
+			.title-energy {
+				font-size: 2.6em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				color: #8f9a9d;
+				margin: 0 0 2em 0;
+				letter-spacing: 2px;
+				line-height: 1.2;
+			}
+			img {
+				margin: 3em 0 0 0;
+				transform: rotate(20deg);
+			}
+		}
+	}
+	.section-2-energy {
+		
+		.txt-parallax {
+			
+			padding: 0;
+			
+			p:first-child {
+				font-size: 2.6em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				color: $celeste;
+				margin: 30px 0;
+				letter-spacing: 2px;
+				line-height: 1.2;
+			}
+			p:last-child {
+				width: 70%;
+			}
+		}
+		.box-color {
+			
+			z-index: 1;
+			position: absolute;
+		}
+		.parallax-right {
+			
+			margin: 13em 0 0 0;
+			float: left;
+			
+			.box-210 {
+				
+				width: 21em;
+				height: 21em;
+				display: table;
+				background: $celeste;
+				@include animationAll(.5s);
+				cursor: pointer;
+				text-transform: uppercase;
+				position: absolute;
+				top: 0;
+				left: -10em;
+				
+				&:hover {
+					background: $celeste-over;
+					@include animationAll(.5s);
+				}
+				p {
+					font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+					display: table-cell;
+					vertical-align: middle;
+					padding: 17px;
+					color: $white;
+					font-size: 2.6em;
+					text-align: left;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+			}
+			.parallax-energy {
+				
+				position: relative;
+				height: 480px;
+				overflow: hidden;
+				padding: 0;
+				
+				figure {
+					background-image: url("../img/img-reductive-energy.jpg");
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+					height: 130%;
+					position: relative;
+					right: 0;
+					margin: 0;
+				}
+			}
+		}
+		.parallax-left {
+			
+			top: -19em;
+			position: relative;
+			float: right;
+			
+			.box-210 {
+				
+				width: 21em;
+				height: 21em;
+				display: table;
+				background: $gris-oscuro;
+				@include animationAll(.5s);
+				cursor: pointer;
+				text-transform: uppercase;
+				position: absolute;
+				top: 0;
+				left: -10em;
+				
+				&:hover {
+					background: $gris-oscuro-over;
+					@include animationAll(.5s);
+				}
+				p {
+					font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+					display: table-cell;
+					vertical-align: middle;
+					padding: 17px;
+					color: $white;
+					font-size: 2.6em;
+					text-align: left;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+			}
+			.parallax-energy {
+				
+				position: relative;
+				height: 480px;
+				overflow: hidden;
+				padding: 0;
+				
+				figure {
+					
+					background-image: url("../img/img-clean-energy.jpg");
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+					height: 130%;
+					position: relative;
+					right: 0;
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+
+@media #{$small-only}{
+	.energy {
+		
+		.row {
+			padding: 0;
+		}
+		.banner-energy {
+			
+			height: 370px;
+			position: relative;
+			margin: 7em 0;
+			
+			.box-info {
+				height: 21em;
+				width: 100%;
+				right: 0;
+				top: 100%;
+				position: absolute;
+			}
+		}
+		.section-1-energy {
+			
+			.content-1-section {
+				max-width: 100%;
+				padding: 0;
+				width: 100%;
+				margin: 15em 0 0 0;
+				.title-1-section {
+					padding: 0 20px;
+					margin: 30px 0 0px 0;
+				}
+				.box-1-section {
+					p {
+						padding: 0 20px;
+					}
+					img {
+						margin: 0 0 7px 0;
+						width: 100%;
+						padding: 20px;
+					}
+				}
+			}
+		}
+		.section-2-energy {
+			
+			.txt-parallax {
+				
+				padding: 0 20px;
+				
+				p:first-child {
+					font-size: 2.6em;
+					font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+					color: $celeste;
+					margin: 30px 0;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+				p:last-child {
+					width: 70%;
+				}
+			}
+			.box-color {
+				z-index: 1;
+				position: relative;
+			}
+			.parallax-right {
+				
+				top: 0;
+				position: relative;
+				float: right;
+				max-width: 100%;
+				width: 100%;
+				margin: 8em auto;
+				.box-210 {
+					left: 0;
+					width: 100%;
+					position: relative;
+				}
+				.parallax-energy {
+					
+					height: 370px;
+					
+					figure {
+						height: 100%;
+					}
+				}
+			}
+			.parallax-left {
+				
+				top: 0;
+				position: relative;
+				float: none;
+				max-width: 100%;
+				width: 100%;
+				margin: 8em auto;
+				
+				.box-210 {
+					
+					left: 0;
+					width: 100%;
+					position: relative;
+				}
+				.parallax-energy {
+					
+					height: 370px;
+					
+					figure {
+						
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media #{$medium-only}{
+	.energy {
+		
+		.banner-energy {
+			
+			height: 400px;
+			position: relative;
+			margin: 7em 0;
+			
+			.box-info {
+				
+				display: block;
+				background: $celeste;
+				@include animationAll(.5s);
+				cursor: pointer;
+				text-transform: uppercase;
+				position: absolute;
+				bottom: 0;
+				height: 100%;
+				width: 50%;
+				right: 0;
+				
+				p {
+					display: inline-block;
+					padding: 37px 17px;
+					vertical-align: middle;
+				}
+			}
+			.img-left-banner {
+				
+				float: left;
+				background-position: center bottom;
+				background-size: cover;
+				height: 100%;
+				background-repeat: no-repeat;
+				left: 0;
+				top: 0;
+				background-image: url(../img/img-left-energy.jpg);
+			}
+			.img-right-banner {
+				
+				background-position: center bottom;
+				background-size: cover;
+				height: 100%;
+				background-repeat: no-repeat;
+				left: 0;
+				top: 0;
+				float: right;
+				background-image: none;
+			}
+		}
+		.section-1-energy {
+			
+			.copy-energy-medium {
+				
+				.column-2-energy-medium {
+					column-count: 2;
+					padding: 0;
+				}
+			}
+			.content-1-section {
+				
+				max-width: 100%;
+				float: none;
+				width: 100%;
+				padding: 10px;
+				margin: 5em auto 5em auto;
+				
+				.box-1-section {
+					
+					padding: 0;
+					
+					img {
+						margin: 0 0 30px 0;
+						width: 100%;
+					}
+					p:last-child {
+						width: 90%;
+					}
+				}
+				img.logo-giglio {
+					
+					position: absolute;
+					top: 46%;
+					right: 25%;
+					transform: rotate(20deg);
+					bottom: 0;
+					width: 133px;
+				}
+			}
+			.copy-energy {
+				
+				margin: 0 0 5em 0;
+				padding: 0;
+				img {
+					margin: 3em 0 0 0;
+					transform: rotate(20deg);
+				}
+			}
+		}
+		.section-2-energy {
+			
+			.txt-parallax {
+				
+				padding: 0;
+				p:first-child {
+					font-size: 2.6em;
+					font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+					color: $celeste;
+					margin: 30px 0;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+				p:last-child {
+					width: 70%;
+				}
+			}
+			.box-color {
+				
+				z-index: 1;
+				position: absolute;
+			}
+			.parallax-right {
+				
+				top: 0;
+				position: relative;
+				float: right;
+				max-width: 100%;
+				width: 530px;
+				margin: 8em 11.5% auto 0;
+				
+				.box-210 {
+					
+					left: 75%;
+				}
+				.parallax-energy {
+					
+					height: 530px;
+					
+					figure {
+						height: 100%;
+					}
+				}
+			}
+			.parallax-left {
+				
+				top: 0;
+				position: relative;
+				float: none;
+				max-width: 100%;
+				width: 530px;
+				margin: 8em auto;
+				
+				.parallax-energy {
+					
+					height: 530px;
+					
+					figure {
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+	.energy .section-2-energy .parallax-left .box-210 {
+		position: relative;
+		left: -84px;
+	}
+	.energy .section-2-energy .parallax-left {
+		top: -21em;
+	}
+	.energy .section-1-energy .copy-energy {
+		margin: 4em 0 0 0;
+	}
+	p.large-12.medium-12.small-12.column.column-2-energy-medium {
+		font-size: 14px;
+		line-height: 18px;
+		padding: 0;
+	}
+}

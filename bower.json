@@ -1,0 +1,12 @@
+{
+  "name": "zf5_project",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "jquery-validation": "~1.13.1",
+    "bower-skrollr": "~0.6.26",
+    "skrollr-menu": "~0.1.6",
+    "slick.js": "~1.4.1",
+    "chosen_v1.4.1": "https://github.com/harvesthq/chosen/releases/download/v1.4.1/chosen_v1.4.1.zip",
+    "malihu-custom-scrollbar-plugin": "~3.0.8"
+  }
+}

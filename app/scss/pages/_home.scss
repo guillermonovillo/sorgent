@@ -1,0 +1,659 @@
+.home{
+	.banner{
+
+		height: 600px;
+
+		.slick-slider {
+			margin-bottom: 0;
+			width: 50%;
+			float: right;
+			z-index: 1;
+			
+			.slick-prev, .slick-next {
+				bottom: 0;
+				width: 45px;
+				height: 45px;
+				top: auto;
+				left:auto;
+				@include animationAll(.5s);
+				z-index: 999;
+
+			}
+			.slick-prev:before, .slick-next:before {
+				display: none;
+			}
+
+			.slick-prev{
+				background-image: url(../img/arrow-slide-home.png);
+				position: absolute;	
+				right: 60px;
+
+				&:hover{
+					opacity: 0.8;
+					@include animationAll(.5s);
+				}
+			}
+			.slick-next{
+				background-image: url(../img/arrow-slide-home.png);
+				position: absolute;	
+				right: 17px;
+				background-position: 45px;
+
+				&:hover{
+					opacity: 0.8;
+					@include animationAll(.5s);
+				}
+			}
+		}
+		
+		.img-left-banner{
+			background-image: url(../img/img-left-home.jpg);
+		}
+		.img-right-banner-1{
+  			background-position: center bottom;
+			background-size: cover;
+			background-repeat: no-repeat;
+			left: 0;
+			top: 0;
+			background-image: url(../img/img-right-home.jpg);
+			float: left;
+			height: 600px;
+		}
+		.img-right-banner-2{
+			background-position: center bottom;
+			background-size: cover;
+			background-repeat: no-repeat;
+			left: 0;
+			top: 0;
+			background-image: url(../img/slide-2.jpg);
+			float: left;
+			height: 600px;
+		}
+		.img-right-banner-3{
+			background-position: center bottom;
+			background-size: cover;
+			background-repeat: no-repeat;
+			left: 0;
+			top: 0;
+			background-image: url(../img/slide-3.jpg);
+			float: left;
+			height: 600px;
+		}
+		.img-right-banner-4{
+			background-position: center bottom;
+			background-size: cover;
+			background-repeat: no-repeat;
+			left: 0;
+			top: 0;
+			background-image: url(../img/slide-4.jpg);
+			float: left;
+			height: 600px;
+		}
+		.img-left-banner span{
+			color: $white;
+		  	font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+		  	font-size: 1.7em;
+			float: right;
+			margin: 6em 8em 0 0;
+			letter-spacing: 1px;
+		}
+		.box-info{
+		  	width:30em;
+		  	height:30em;
+		  	display: table;
+		  	@include animationAll(.5s);
+		  	cursor: pointer;
+
+		  	h1{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+		  		font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+		  	}
+		}
+	  	.slide-1{
+
+	  		background: $bordo;
+	  		@include animationAll(.5s);
+
+	  		&:hover{
+	  			background: $bordo-over;
+		  		@include animationAll(.5s);
+		  	}
+	  	}
+	  	.slide-2{
+
+	  		background: $verde;
+	  		@include animationAll(.5s);
+
+	  		&:hover{
+	  			background: $verde-over;
+		  		@include animationAll(.5s);
+		  	}
+	  	}
+	  	.slide-3{
+
+	  		background: $marron;
+	  		@include animationAll(.5s);
+
+	  		&:hover{
+	  			background: $gris-oscuro-over;
+		  		@include animationAll(.5s);
+		  	}
+	  	}
+	  	.slide-4{
+
+	  		background: $celeste;
+	  		@include animationAll(.5s);
+
+	  		&:hover{
+	  			background: $celeste-over;
+		  		@include animationAll(.5s);
+		  	}
+	  	}
+	}
+	.giglio-home{
+		
+		div:first-child{
+			float: left;
+			
+			.giglio-66-home{
+				float: left;
+				p{
+					margin: 40px 0;
+					padding-right: 20px;
+					font-size: 1.3em;
+					letter-spacing: -.3px;
+				}
+
+			}
+		}
+		div:last-child{
+			
+			float: right;
+
+			p:first-child{
+				color: $verde;
+		  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+		  		font-size: 3em;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+				margin-top: 100px;
+			}
+
+		}
+		.giglio-33-home{
+			float: right;
+			
+			p{
+				margin: 40px 0;
+				padding-right: 20px;
+				font-size: 1.3em;
+				letter-spacing: -.3px;
+			}
+
+			span{
+				
+				position: relative;
+
+				.logo-giglio-home{
+					position: absolute;
+					right: -123px;
+					top: 63px;
+					transform: rotate(20deg);					
+				}
+			}
+		}
+		h4{
+			color: $bordo;
+	  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+	  		font-size: 2em;
+			text-align: left;
+			letter-spacing: 2px;
+			margin-bottom: 30px;
+			margin-top: 60px;
+		}
+	}
+	.video{
+		
+		position: relative;
+		height: 429px;
+
+		span{
+			max-width: 30em;
+			background: $marron;
+			padding: 20px;
+			max-height: 30em;
+			height: 30em;
+			@include animationAll(.5s);
+
+		  	&:hover{
+		  		background: $over-box-marron;
+		  		@include animationAll(.5s);
+		  		cursor: pointer;
+		  	}
+
+
+			h2{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+		  		font-size: 2.6em;		
+				text-align: left;
+				letter-spacing: 2px;
+				line-height: 1.2;
+				margin-top: 60px;
+  				margin-bottom: 40px;
+		  	}
+		  	p{
+		  		color: $white;
+			  	font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+			  	font-size: 1.3em;
+				text-align: left;
+				letter-spacing: 1px;
+
+				img{
+
+					margin-left: 1em;
+				}
+		  	}
+		}
+		.content-parallax{
+			position: relative;	
+			height: 429px;
+			overflow: hidden;
+			padding: 0;
+
+			figure{
+				
+				  background-image: url("../img/img-video-home.jpg");
+				  background-size: cover;
+				  background-position: center;
+				  background-repeat: no-repeat;
+				  height:130%;
+				  position: relative;
+				  right: 0;
+				  margin: 0;
+			}
+		}
+	}
+	.bg-bordo{
+		background: $bordo;
+		overflow: hidden;
+		height: 300px;
+		position: relative;
+		margin-top: 6em;
+	}
+	.windows{
+
+		position: relative;
+
+		span{
+			background: $bordo;
+			padding: 0 20px 20px 20px;
+			height: 100%;
+			max-width: 100%;
+			text-align: right;
+
+			h2{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+		  		font-size: 2.6em;	
+				text-align: left;
+				letter-spacing: 1px;
+				line-height: 1.2;
+				margin-top: 40px;
+  				margin-bottom: 40px;
+  				text-transform: uppercase;
+  				width: 274px;
+  				float: right;
+
+		  	}
+		  	p{
+		  		color: $white;
+			  	font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+			  	font-size: 1.3em;
+				text-align: left;
+				letter-spacing: 1px;
+				width: 274px;
+  				float: right;
+
+				img{
+
+					margin-left: 1em;
+				}
+		  	}
+		}
+		figure{
+			  background-image: url("../img/window-home.jpg");
+			  background-size: cover;
+			  background-position: right;
+			  background-repeat: no-repeat;
+			  height: 130%;
+			  position: absolute;
+			  right: -30%;
+			  margin: 0;
+			  width: 105%;
+		}
+
+	}
+}
+@media #{$small-only} {
+
+	.home {	
+		
+		.banner{
+			
+			height: 380px;
+
+			.slick-slider {
+				margin-bottom: 0;
+				width: 100%;
+				float: left;
+			}
+			
+			div:last-child{
+				float: left;
+
+				p{
+					color: $verde;
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+			  		font-size: 2.6em;
+					text-align: left;
+					letter-spacing: 2px;
+					padding: 17px;
+					line-height: 1.2;
+					margin: 50px 0 0 0;
+				}
+			}
+			.img-left-banner {
+
+				span{
+					font-size: 1.7em;
+					float: left;
+					margin: 6em 0 0 1.5em;
+					width: 60%;
+				}
+			}
+			.img-right-banner-1, .img-right-banner-2, .img-right-banner-3, .img-right-banner-4{
+				background-image: none;
+				height: auto;
+			
+
+				.box-info {
+
+					width: 100%;
+					height: 21em;
+
+					h1{
+						padding: 37px 17px;
+						display: inline-block;
+						font-size: 2.2em;
+					}
+				}
+			}
+		}
+		
+		.giglio-home{
+
+			.giglio-66-home{
+
+				position: relative;
+
+				.logo-giglio-small-home{
+
+					position: absolute;
+					top: 40px;
+					width: 100px;
+					right: -10px;
+					transform: rotate(20deg);
+				}
+			}
+			
+			padding: 0 20px;
+			
+			.giglio-66-home, .giglio-33-home{
+
+				img{
+					width: 100%;
+				}
+			}
+		}
+	    .video{
+			
+			position: relative;
+			height: 100%;
+			padding: 0 2em;
+
+			.content-parallax{
+				height: 360px;
+
+				figure{
+					height: 100%;
+				}
+			}
+
+			span{
+				padding: 20px;
+				position:relative;
+				min-width: 100%;
+				height: auto;
+
+				h2{
+					margin-top: 30px;
+					margin-bottom: 30px;
+				}
+			}
+			figure{
+				  height: 100%;
+				  position: relative;
+				  min-width: 100%;
+			}
+		}
+		.bg-bordo{
+			height: auto;
+		}
+		.windows{
+			
+			position: relative;
+			height: 100%;
+
+			span{
+				padding: 20px;
+				position:relative;
+				min-width: 100%;
+				height: auto;
+
+				h2{
+					width: 100%;
+					margin-top: 30px;
+					margin-bottom: 30px;
+				}
+				p{
+					width: 100%;
+				}
+			}
+			figure{
+				  height: 100%;
+				  position: relative;
+				  min-width: 100%;
+			}
+		}
+	}
+}
+@media #{$medium-only} {
+    
+    .home {	
+		
+		.banner{
+			height: 400px;
+			margin: 70px 0 0 0;
+
+			.slick-slider {
+				margin-bottom: 0;
+				width: 50%;
+				float: right;
+			}
+			
+			.img-right-banner-1, .img-right-banner-2, .img-right-banner-3, .img-right-banner-4{
+				background-image: none;
+				height: 400px;
+			}
+
+			.box-info {
+
+				width: 100%;
+				height: 100%;
+
+				h1{
+					padding: 37px 17px;
+					display: inline-block;
+				}
+			}
+			.img-left-banner {
+
+				span{
+					margin: 5em 1em;
+				}
+			}
+		}
+		.giglio-home{
+			
+			div:first-child{
+				max-width: 600px;
+				margin: auto;
+				position: relative;
+				float: none;
+			}
+			div:last-child{
+				p:first-child{
+					padding: 0;
+					margin: 10px 0 58px 0;
+				}
+			}
+			.giglio-66-home{
+
+				span{
+					
+					position: relative;
+
+					img:last-child{
+						
+						right: -77px;				
+					}
+				}
+			}
+			.giglio-33-home{
+
+				span{
+
+					.logo-giglio-home{
+
+						right: -80px;				
+					}
+				}
+			}
+		}
+    	.giglio{
+			
+			div:last-child{
+				float: left;
+
+				p:first-child{
+					margin-top: 0;
+				}
+			}
+	  	}
+	    .video{
+
+			padding: 0 50px;
+			
+			span{
+				padding: 10px;
+				min-height: 100%;
+				
+				h2{
+			  		width: auto;
+			  		font-size: 1.9em;
+			  		letter-spacing: 0;
+			  	}
+			  	p{
+			    	letter-spacing: -0.3px;
+			  	}
+			}
+			figure{
+				  height: 100%;
+				  position: absolute;
+			}
+		}
+		.windows{
+			
+			position: relative;
+			height: 100%;
+
+			span{
+				padding: 0 20px 0 30px;
+				position:absolute;
+				min-height: 100%;
+
+				h2{	
+			  		width: 100%;
+			  		max-width: 274px;
+			  		font-size: 2em;
+			  		letter-spacing: 0;
+			  	}
+			  	p{
+			  		width: 100%;
+			  		max-width: 274px;
+			  		letter-spacing: 0;
+			  	}
+
+			}
+			figure{
+				height: 120%;
+				position: absolute;
+				width: 95.6%;
+			}
+		}
+	}	
+}
+@media screen and (min-width: 1000px) and (max-width:1200px){
+	.home .video span h2{
+		font-size: 2.3em;
+	}
+	.home .windows span{
+		h2{
+			font-size: 2.3em;
+			width: 224px;
+			float: left;
+		}
+		p{
+			width: 224px;	
+			float: left;
+		}
+	}
+}

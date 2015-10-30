@@ -1,0 +1,862 @@
+.about{
+
+	color: $gris-about;	
+	
+	.banner-about{
+		
+		height: 300px;
+		position: relative;
+		margin-bottom: 11em;
+		background: $gris;
+
+		.menu-about{
+			
+			position: relative;
+			padding: 0;
+			margin-top: 80px;
+
+			ul {
+				
+				margin-left: 0;
+
+				li{
+					list-style: none;
+					margin: 10px 0;
+
+					a{
+						font-size: 1.3em;
+						text-align: left;
+						line-height: 13px;
+						color: $gris-about;	
+						font-family: "ff-enzo-web";
+						font-weight: 300;
+						font-style: normal;
+
+						&:hover{
+							@include animationAll(.5s);
+							color: $bordo;
+						}					
+					}
+				}
+			}
+
+		}
+		.box-info{
+		  	width:30em;
+		  	height:30em;
+		  	display: table;
+		  	background: $bordo;
+		  	@include animationAll(.5s);
+		  	cursor: pointer;
+		  	text-transform: uppercase;
+		  	position: absolute;
+		  	bottom: -70px;
+		  	right: 0;
+
+		  	&:hover{
+		  		background: $bordo-over;
+		  		@include animationAll(.5s);
+		  	}
+
+		  	p{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+		  	}
+		}
+		
+		.img-left-banner{
+
+			background-image: url(../img/img-central-about.jpg);
+  			height: 480px;
+  			width: 50%;
+  			max-width: 100%;
+  			top: 0;
+  			left: 11px;
+
+		}
+		.content-right-banner{
+
+			.logo-header-about{
+				
+				width: 150px;
+				height: 150px;
+				margin: 60px 0 0 -16px;
+
+				img{
+					transform: rotate(20deg);	
+				}
+				
+			}
+			
+			h1{
+				color: $bordo;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 6.5em;
+		  		margin: 0 0 0 100px;
+
+				span{
+
+					color: $bordo;
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+			  		font-size: 35px;
+			  		vertical-align: middle;
+				}
+			}
+			p{
+				position: relative;
+				margin: 50px 0 0 0;
+				padding-left: 100px;
+				width: 100%;
+			}
+		}
+	}
+	.content-whatwedo{
+
+		.menu-whatwedo{
+			
+			position: relative;
+			padding: 0;
+			margin-top: 150px;
+
+			ul {
+				
+				margin-left: 0;
+
+				li{
+					list-style: none;
+					margin: 10px 0;
+
+					a{
+						font-size: 1.3em;
+						text-align: left;
+						line-height: 13px;
+						color: $gris-about;	
+						font-family: "ff-enzo-web";
+						font-weight: 300;
+						font-style: normal;
+
+						&:hover{
+							@include animationAll(.5s);
+							color: $bordo;
+						}					
+					}
+				}
+			}
+
+		}
+		.text-whatwedo{
+			
+			padding-right: 0;
+			z-index: 1;
+
+			h1{
+				color: $bordo;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 6.5em;
+		  		 margin: 134px 0 0 0;
+
+				span{
+
+					color: $bordo;
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+			  		font-size: 35px;
+			  		vertical-align: middle;
+				}
+			}
+			h3{
+		  		color: $colorBase;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 2em;
+				text-align: left;
+				letter-spacing: 2px;
+				line-height: 1.2;
+				padding: 0;
+				margin: 0 0 50px 0;
+		  	}
+		}
+		.map-whatwedo{
+			padding: 0;
+			z-index: 0;
+
+			img{
+				left: -34px;
+				position: relative;
+				margin: 40px 0px;
+			}
+		}
+	}
+	.content-filosofia{
+		
+		position: relative;
+		
+		.menu-filosofia{
+			
+			position: relative;
+			padding: 0;
+
+			ul {
+				
+				margin-left: 0;
+
+				li{
+					list-style: none;
+					margin: 10px 0;
+
+					a{
+						font-size: 1.3em;
+						text-align: left;
+						line-height: 13px;
+						color: $gris-about;	
+						font-family: "ff-enzo-web";
+						font-weight: 300;
+						font-style: normal;
+
+						&:hover{
+							@include animationAll(.5s);
+							color: $bordo;
+						}					
+					}
+				}
+			}
+		}
+
+		.title-filosofia{
+			padding-left: 0;
+			div{
+				padding: 0;
+			}
+			p{
+				padding-right: 0.625rem;
+				padding-left: 0.625rem;
+			}
+	  		h1{
+				color: $bordo;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 6.5em;
+				margin: .4em .5em .3em  0;
+				text-align: right;
+
+				span{
+
+					color: $bordo;
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+			  		font-size: 35px;
+			  		vertical-align: middle;
+				}
+			}
+			img{
+				margin: 0 0 2em 0;
+			}
+	  	}
+	  	.box-gris-about{
+			
+			padding-right: 0;
+
+			h3{
+				color: $colorBase;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 2em;
+				text-align: left;
+				letter-spacing: 2px;
+				line-height: 1.2;
+				padding: 0;
+			}
+
+			.box-info{
+			  	width: 100%;
+			  	height:27em;
+			  	display: table;
+			  	background: $gris-oscuro;
+			  	@include animationAll(.5s);
+			  	cursor: pointer;
+			  	text-transform: uppercase;
+			  	position: relative;
+			  	right: 0;
+			  	margin: 0 0 50px 0;
+
+			  	&:hover{
+			  		background: $gris-oscuro-over;
+			  		@include animationAll(.5s);
+			  	}
+
+			  	p{
+			  		color: $white;
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+			  		font-size: 3em;
+					display: table-cell;
+					vertical-align: middle;
+					text-align: left;
+					letter-spacing: 2px;
+					padding: 17px;
+					line-height: 1.2;
+			  	}
+			}
+		}
+	}
+	.content-generation{
+		
+		position: relative;
+		margin: 0 0 60px 0;
+
+		.title{
+			color: $bordo;
+			font-size: 2em;
+			font-family: "ff-enzo-web";
+			font-weight: 300;
+			font-style: normal;
+			margin: 30px 0 0 0;
+		}
+		.sub-title{
+			font-size: 1.5em;
+			margin: 5px 0 0 0;
+		}
+
+		.box-l-team{
+
+			left: 20px;
+			min-height: 450px;
+			position: relative;
+
+			a:last-child{
+				position: absolute;
+				bottom: 0;
+				color: $colorBase;
+
+				&:hover{
+					@include animationAll(.5s);
+					color: $bordo;
+				}
+			}
+
+		}
+		.box-r-team{
+			
+			min-height: 450px;
+			position: relative;
+		
+		a:last-child{
+			position: absolute;
+			bottom: 0;
+			color: $colorBase;
+
+			&:hover{
+				@include animationAll(.5s);
+				color: $bordo;
+			}
+		}
+			.logo-giglio-team{
+
+				position: absolute;
+				right: -90px;
+				transform: rotate(20deg);
+				top: 10%;
+				width: 136px;
+			}
+
+		}
+		
+		.menu-generation{
+			
+			position: relative;
+			padding: 0;
+
+			ul {
+				
+				margin-left: 0;
+
+				li{
+					list-style: none;
+					margin: 10px 0;
+
+					a{
+						font-size: 1.3em;
+						text-align: left;
+						line-height: 13px;
+						color: $gris-about;	
+						font-family: "ff-enzo-web";
+						font-weight: 300;
+						font-style: normal;
+
+						&:hover{
+							@include animationAll(.5s);
+							color: $bordo;
+						}					
+					}
+				}
+			}
+		}
+
+		.title-generation{
+
+			p{
+				padding-right: 0.625rem;
+				padding-left: 0.625rem;
+			}
+	  		h1{
+				color: $bordo;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 6.5em;
+				margin: 30px .5em .3em  0;
+				text-align: left;
+
+				span{
+
+					color: $bordo;
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+			  		font-size: 35px;
+			  		vertical-align: middle;
+				}
+			}
+			img{
+				margin: 0 0 2em 0;
+			}
+	  	}
+	  	.box-gris-about{
+
+			h3{
+				color: $colorBase;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 2em;
+				text-align: left;
+				letter-spacing: 2px;
+				line-height: 1.2;
+				padding: 0;
+			}
+
+			.box-info{
+			  	width:30em;
+			  	height:30em;
+			  	display: table;
+			  	background: $gris-oscuro;
+			  	@include animationAll(.5s);
+			  	cursor: pointer;
+			  	text-transform: uppercase;
+			  	position: relative;
+			  	right: 0;
+			  	margin: 0 0 50px 0;
+
+			  	&:hover{
+			  		background: $gris-oscuro-over;
+			  		@include animationAll(.5s);
+			  	}
+
+			  	p{
+			  		color: $white;
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+			  		font-size: 3em;
+					display: table-cell;
+					vertical-align: middle;
+					text-align: left;
+					letter-spacing: 2px;
+					padding: 17px;
+					line-height: 1.2;
+			  	}
+			}
+		}
+	}
+}
+.bio-veronica, .bio-valter{
+
+	max-width: 720px;
+	max-height: 65%;
+    background-color: #FFF;
+    padding: 2.875rem 1.875rem;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    @include animationAll(.5s);
+
+	.title{
+		color: $bordo;
+		font-size: 2em;
+		font-family: "ff-enzo-web";
+		font-weight: 300;
+		font-style: normal;
+	}
+	.sub-title{
+		font-size: 1.5em;
+		margin: 5px 0 3em 0;
+	}
+	.info{
+		overflow: auto;
+		height: 33vh;
+	}
+	.close-reveal-modal{
+		color: $bordo;
+
+		&:hover{
+	  		color: $gris-oscuro-over;
+	  		@include animationAll(.5s);
+	  	}
+	}
+
+}
+@media #{$small-only} {
+	.bio-veronica, .bio-valter{
+
+		overflow: auto;
+		height: 100%;
+
+		.sub-title{
+			font-size: 1.5em;
+			margin: 5px 0 1em 0;
+		}
+		.info{
+			
+			height: 100%;
+		}
+	}
+	.about {
+		.row{
+
+			padding: 0;
+		}
+		.banner-about {
+			height: auto;
+			position: relative;
+			margin-bottom: 0;
+			background: none;
+			padding: 0;
+
+		    .box-info{
+
+				height: 21em;
+				bottom: 0;
+				width: 100%;
+				position: relative;
+				
+				p{
+					width: 100%;
+			  		display: inline-block;
+			  		padding: 37px 17px;
+			  		vertical-align: baseline;
+				}
+			}
+			.img-left-banner {
+				height: 380px;
+			    width: 100%;
+			    top: 0px;
+			    left: 0;
+			    margin: 70px 0 0 0;
+			    background-size: cover;
+
+			}
+
+			.content-right-banner {
+				
+				padding: 0;
+				
+				h1{
+
+					margin: 12px 16px -36px;
+				}
+				p{
+
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+		}
+		.content-whatwedo{
+			
+			.text-whatwedo{
+
+				margin: 47px 0;
+				
+				h1{
+					margin: 0;
+				}
+				h3{
+					margin: 26px 10px 65px 10px;
+				}
+				p{
+					margin: 0 10px;
+				}
+			}
+			.map-whatwedo{
+				
+				background-image: url("../img/map-about.png");
+				height: 420px;
+				width: 100%;
+				overflow: hidden;
+				position: relative;
+				margin: -150px 0px 0px;
+			}
+		}
+		.content-filosofia{
+
+			.box-gris-about{
+
+				padding-left: 0;
+
+				h3{
+					float: left;
+					margin: 0 10px 35px 10px;
+				}
+
+				.title-filo-move-medium{
+					h1{
+						color: $bordo;
+				  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+				  		font-size: 9em;
+						margin: 0 10px;
+						text-align: left;
+						position: relative;
+						width: 100%;
+
+						span{
+
+							color: $bordo;
+					  		font-family: "ff-enzo-web";
+							font-weight: 300;
+							font-style: normal;
+					  		font-size: .35em;
+					  		vertical-align: top;
+							position: absolute;
+							width: 40%;
+							top: 16px;
+						}
+					}
+				}
+
+				.box-info{
+					
+					width: 100%;
+					height: 25em;
+
+					p{
+						font-size: 2.6em;
+					}
+				}
+
+			}
+			.title-filosofia{
+				padding-left: 0.625rem;
+
+				p{
+					margin: 40px 0 50px 0;
+				}
+
+				img{
+					width: 100%;
+					padding-right: 0.625rem;
+					padding-left: 0.625rem;
+				}
+			}
+		}
+		.content-generation{
+
+			.text-small-only {
+				padding-right: 0.625rem;
+				padding-left: 0.625rem;
+				margin: 50px 10px 80px 10px;
+			}
+			
+			.title-generation{
+
+				p{
+					padding-right: 0.625rem;
+					padding-left: 0.625rem;
+				}
+		  		h1{
+			  		font-size: 8em;
+					margin: 0;
+					text-align: left;
+					position: relative;
+					width: 100%;
+
+					span{
+
+				  		vertical-align: top;
+						position: absolute;
+						width: 90%;
+						top: 16px;
+						min-width: 200px;
+					}
+				}
+				img{
+					margin: 0 0 2em 0;
+				}
+		  	}
+		  	.box-l-team{
+		  		left: 0;
+		  		padding: 0px 4em 70px 4em;
+
+		  		a:last-child{
+		  			position: relative;
+		  			top: 20px;
+		  		}
+		  	}
+		  	.box-r-team{
+		  		left: 0;
+		  		padding: 0 4em;
+
+		  		a:last-child{
+		  			position: relative;
+		  			top: 20px;
+		  		}
+		  	}
+		}
+	}
+}
+@media #{$medium-only} {
+	.about {
+
+		.row{
+
+			padding: 0;
+		}
+		.banner-about {
+
+			height: 400px;
+			margin: 7em 0;
+
+			.img-left-banner{
+
+				height: 400px;
+				width: 100%;
+				left: 0;
+				background-size: contain;
+				background-position: left bottom;
+
+				.box-info{
+
+					height: 100%;
+					bottom: 0;
+					width: 50%;
+					display: block;
+					
+					p{
+						display: inline-block;
+						padding: 37px 17px;
+						width: 68%;
+					}
+				}
+			}
+			.content-right-banner {
+				
+				h1{
+					margin: 70px 0px 0px 0;
+				}
+				p{
+					padding-left: 0;
+				}
+				.logo-header-about{
+					
+					position: absolute;
+					left: -90%;
+					bottom: 0px;	
+
+					img{
+						transform: rotate(-20deg); 
+						width: 133px;
+					}
+				}
+
+			}
+		}
+		.content-whatwedo{
+			
+			.text-whatwedo{
+
+				margin: 70px 0;
+				
+				h1{
+					margin: 0;
+				}
+			}
+			.map-whatwedo{
+
+				margin: 70px 0;
+			}
+		}
+		.content-filosofia{
+
+			.box-gris-about{
+
+				h3{
+					float: left;
+					margin: 2em 0 0 0;
+				}
+
+				.title-filo-move-medium{
+					h1{
+						color: $bordo;
+				  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+				  		font-size: 9em;
+						margin: -.3em .5em .3em  0;
+						text-align: right;
+
+						span{
+
+							color: $bordo;
+					  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+					  		font-size: .35em;
+					  		vertical-align: middle;
+						}
+					}
+				}
+
+				.box-info{
+					
+					width: 33%;
+					height: 25em;
+
+					p{
+						font-size: 2.6em;
+					}
+				}
+
+			}
+			.title-filosofia{
+				top: -50px;
+				padding-left: 0.625rem;
+
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+}

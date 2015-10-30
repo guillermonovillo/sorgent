@@ -1,0 +1,559 @@
+$sprite: (
+	app_appstore: (
+		offset-x: -703px,
+		offset-y: 0px,
+		width: 127px,
+		height: 46px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	app_google-play: (
+		offset-x: -368px,
+		offset-y: -601px,
+		width: 127px,
+		height: 46px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	arrow_next--white: (
+		offset-x: -368px,
+		offset-y: -527px,
+		width: 48px,
+		height: 64px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	arrow_next: (
+		offset-x: -624px,
+		offset-y: -85px,
+		width: 48px,
+		height: 64px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	arrow_prev--white: (
+		offset-x: -590px,
+		offset-y: -243px,
+		width: 48px,
+		height: 64px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	arrow_prev: (
+		offset-x: -541px,
+		offset-y: -324px,
+		width: 48px,
+		height: 64px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	close: (
+		offset-x: -518px,
+		offset-y: -404px,
+		width: 24px,
+		height: 25px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	contact_white: (
+		offset-x: -676px,
+		offset-y: -221px,
+		width: 16px,
+		height: 12px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	housing: (
+		offset-x: -539px,
+		offset-y: -85px,
+		width: 75px,
+		height: 72px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	housing_small: (
+		offset-x: -539px,
+		offset-y: -167px,
+		width: 38px,
+		height: 36px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	list_bullet: (
+		offset-x: -201px,
+		offset-y: -327px,
+		width: 16px,
+		height: 16px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo--black: (
+		offset-x: -228px,
+		offset-y: -238px,
+		width: 191px,
+		height: 105px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo--dark: (
+		offset-x: -338px,
+		offset-y: -116px,
+		width: 191px,
+		height: 105px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo--white: (
+		offset-x: 0px,
+		offset-y: -298px,
+		width: 191px,
+		height: 105px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo__alt--dark: (
+		offset-x: 0px,
+		offset-y: -600px,
+		width: 68px,
+		height: 68px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo__alt--white: (
+		offset-x: -161px,
+		offset-y: -558px,
+		width: 68px,
+		height: 68px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo__alt__mobile--dark: (
+		offset-x: -312px,
+		offset-y: -353px,
+		width: 151px,
+		height: 83px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo__alt__mobile--white: (
+		offset-x: 0px,
+		offset-y: -507px,
+		width: 151px,
+		height: 83px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo__mobile--dark: (
+		offset-x: -189px,
+		offset-y: -465px,
+		width: 151px,
+		height: 83px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo__mobile--white: (
+		offset-x: -429px,
+		offset-y: -231px,
+		width: 151px,
+		height: 83px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo__tc--violet: (
+		offset-x: 0px,
+		offset-y: -149px,
+		width: 218px,
+		height: 139px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo__tc--white: (
+		offset-x: 0px,
+		offset-y: 0px,
+		width: 218px,
+		height: 139px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	lupa: (
+		offset-x: -473px,
+		offset-y: -404px,
+		width: 35px,
+		height: 31px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__amplehills: (
+		offset-x: -281px,
+		offset-y: 0px,
+		width: 106px,
+		height: 106px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__bluebottle: (
+		offset-x: -228px,
+		offset-y: 0px,
+		width: 43px,
+		height: 110px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__cannibal: (
+		offset-x: -350px,
+		offset-y: -446px,
+		width: 200px,
+		height: 71px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__choza: (
+		offset-x: -201px,
+		offset-y: -353px,
+		width: 101px,
+		height: 102px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__courtstreet: (
+		offset-x: -397px,
+		offset-y: 0px,
+		width: 104px,
+		height: 104px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__elcolmado: (
+		offset-x: -511px,
+		offset-y: 0px,
+		width: 182px,
+		height: 75px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__genuine: (
+		offset-x: -156px,
+		offset-y: -636px,
+		width: 186px,
+		height: 60px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__indiefresh: (
+		offset-x: 0px,
+		offset-y: -413px,
+		width: 179px,
+		height: 84px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	m__ramen: (
+		offset-x: -228px,
+		offset-y: -120px,
+		width: 100px,
+		height: 108px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	mail: (
+		offset-x: -490px,
+		offset-y: -527px,
+		width: 34px,
+		height: 34px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	menu--black: (
+		offset-x: -703px,
+		offset-y: -56px,
+		width: 30px,
+		height: 18px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	menu--white: (
+		offset-x: -429px,
+		offset-y: -324px,
+		width: 30px,
+		height: 18px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	pdf: (
+		offset-x: -128px,
+		offset-y: -706px,
+		width: 34px,
+		height: 34px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	pdf_white: (
+		offset-x: -201px,
+		offset-y: -298px,
+		width: 16px,
+		height: 19px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	scroll-down: (
+		offset-x: -560px,
+		offset-y: -460px,
+		width: 31px,
+		height: 18px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	services_bag: (
+		offset-x: -676px,
+		offset-y: -159px,
+		width: 54px,
+		height: 52px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	services_concergie: (
+		offset-x: -599px,
+		offset-y: -317px,
+		width: 54px,
+		height: 52px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	services_dog: (
+		offset-x: -648px,
+		offset-y: -243px,
+		width: 54px,
+		height: 52px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	services_laundry: (
+		offset-x: -682px,
+		offset-y: -85px,
+		width: 54px,
+		height: 52px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	services_movein: (
+		offset-x: -560px,
+		offset-y: -398px,
+		width: 54px,
+		height: 52px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	services_tickets: (
+		offset-x: -64px,
+		offset-y: -678px,
+		width: 54px,
+		height: 52px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	services_trash: (
+		offset-x: 0px,
+		offset-y: -678px,
+		width: 54px,
+		height: 52px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	services_wifi: (
+		offset-x: -426px,
+		offset-y: -527px,
+		width: 54px,
+		height: 52px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	social-fb-black: (
+		offset-x: -172px,
+		offset-y: -706px,
+		width: 15px,
+		height: 15px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	social-fb-white: (
+		offset-x: -663px,
+		offset-y: -305px,
+		width: 15px,
+		height: 15px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	social-instagram-black: (
+		offset-x: -128px,
+		offset-y: -677px,
+		width: 15px,
+		height: 15px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	social-instagram-white: (
+		offset-x: -511px,
+		offset-y: -85px,
+		width: 15px,
+		height: 15px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	social-twitter-black: (
+		offset-x: -161px,
+		offset-y: -507px,
+		width: 15px,
+		height: 15px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	social-twitter-white: (
+		offset-x: -161px,
+		offset-y: -532px,
+		width: 15px,
+		height: 15px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	transport_bus: (
+		offset-x: -473px,
+		offset-y: -324px,
+		width: 58px,
+		height: 70px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	transport_ferry: (
+		offset-x: -590px,
+		offset-y: -167px,
+		width: 76px,
+		height: 66px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	transport_shuttle: (
+		offset-x: -239px,
+		offset-y: -558px,
+		width: 119px,
+		height: 67px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+	transport_subway: (
+		offset-x: -78px,
+		offset-y: -600px,
+		width: 68px,
+		height: 67px,
+		total-width: 830px,
+		total-height: 740px,
+		image: '../../img/sprites/sprite.png'
+	),
+);
+
+
+@mixin sprite-size($image) {
+	background-size: map-get(map-get($sprite, $image), 'total-width') map-get(map-get($sprite, $image), 'total-height');
+}
+
+@mixin sprite-width($image) {
+	width: map-get(map-get($sprite, $image), 'width');
+}
+
+@mixin sprite-height($image) {
+	height: map-get(map-get($sprite, $image), 'height');
+}
+
+@mixin sprite-position($image) {
+	background-position: map-get(map-get($sprite, $image), 'offset-x') map-get(map-get($sprite, $image), 'offset-y');
+}
+
+@mixin sprite-image($image) {
+	background-image: url(map-get(map-get($sprite, $image), 'image'));
+}
+
+@mixin sprite-image-retina($image) {
+	$image-path: map-get(map-get($sprite, $image), 'image');
+	$image-path-retina: str-slice($image-path, 1, str-index($image-path, '.png') - 1) + '@2x.png';
+
+	background-image: url($image-path-retina);
+}
+
+@mixin sprite($image, $size: true) {
+	@include sprite-image($image);
+	@include sprite-position($image);
+	background-repeat: no-repeat;
+
+	@if $size {
+		@include sprite-width($image);
+		@include sprite-height($image);
+	}
+
+	@media
+		only screen and (-webkit-min-device-pixel-ratio: 2),
+		only screen and (   min--moz-device-pixel-ratio: 2),
+		only screen and (     -o-min-device-pixel-ratio: 2/1),
+		only screen and (        min-device-pixel-ratio: 2),
+		only screen and (                min-resolution: 192dpi),
+		only screen and (                min-resolution: 2dppx) {
+
+		@include sprite-size($image);
+		@include sprite-image-retina($image);
+
+	}
+}
+

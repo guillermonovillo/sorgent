@@ -1,0 +1,534 @@
+.sustainability{
+	
+	margin: 0 0 60px 0;
+	
+	.banner{
+		background-image: url('../img/img-central-sustainability.jpg');
+		background-position: center bottom;
+		background-size: cover;
+		height: 48em;
+		width: 100%;
+		background-repeat: no-repeat;
+		left: 0;
+		top: 0;
+		position: relative;
+		
+		.box-info{
+		  	width:30em;
+		  	height:30em;
+		  	display: table;
+		  	background: $verde;
+		  	@include animationAll(.5s);
+		  	cursor: pointer;
+		  	text-transform: uppercase;
+		  	position: absolute;
+		  	bottom: -70px;
+
+		  	&:hover{
+		  		background: $verde-over;
+		  		@include animationAll(.5s);
+		  	}
+
+		  	p{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+		  	}
+		}
+	}
+	.section-1-sustainability{
+		
+		.content-1-section{
+			max-width: 50%;
+			float: left;
+			padding: 0;
+			width: 600px;
+			margin: 15em 0 0 0;
+
+			.box-1-section{
+				padding: 0;
+
+				img{
+					margin: 0 0 30px 0;
+				}
+				p:last-child{
+					width: 90%;
+				}
+			}
+			.title-1-section{
+				font-size: 2.6em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				margin: 0 0 30px 0;
+				color: $verde;
+			}
+			.logo-giglio{
+				position: absolute;
+				top: 78px;
+				right: -74px;
+				transform: rotate(20deg);
+			}
+		}
+
+		.copy-sustainability{
+
+			margin: 7em 0 0 0;
+
+			.title-sustainability{
+
+				font-size: 2.6em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				color: #8f9a9d;
+				margin: 0 0 2em 0;
+				letter-spacing: 2px;
+				line-height: 1.2;
+			}
+
+			img{
+				margin: 3em 0 0 0;
+  				transform: rotate(20deg);
+			}
+
+		}
+	}
+	.section-2-sustainability{
+
+		.box-color{
+			z-index: 1;
+			position: absolute;
+		}
+
+		.parallax-right{
+			margin: 13em 0 0 0;
+			float: left;
+
+			.box-210{
+				width:21em;
+			  	height:21em;
+			  	display: table;
+			  	background: $verde;
+			  	@include animationAll(.5s);
+			  	cursor: pointer;
+			  	text-transform: uppercase;
+			  	position: absolute;
+			  	top: 0;
+	  			left: -10em;
+
+			  	&:hover{
+			  		background: $verde-over;
+			  		@include animationAll(.5s);
+			  	}
+				p{
+			  		font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+					display: table-cell;
+					vertical-align: middle;
+					padding: 17px;
+			  		color: $white;
+			  		font-size: 2.6em;
+					text-align: left;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+			}
+			.txt-parallax{
+
+				padding: 0;
+
+				p:first-child{
+					font-size: 2.6em;
+					font-family: "ff-enzo-web";
+					font-weight: 300;
+					font-style: normal;
+					color: $verde;
+					margin: 30px 0;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+				p:last-child{
+					width: 70%;
+				}
+			}
+			.parallax-sustainability{
+				
+				position: relative;	
+				height: 480px;
+				overflow: hidden;
+				padding: 0;
+
+				figure{
+					background-image: url("../img/img-old-structure-sustainability.jpg");
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+					height:130%;
+					position: relative;
+					right: 0;
+					margin: 0;
+				}
+
+			}
+		}
+		.parallax-left{
+			top: -19em;
+			position: relative;
+			float: right;
+			
+			.box-210{
+				width:21em;
+			  	height:21em;
+			  	display: table;
+			  	background: $gris-oscuro;
+			  	@include animationAll(.5s);
+			  	cursor: pointer;
+			  	text-transform: uppercase;
+			  	position: absolute;
+			  	top: 0;
+	  			left: -10em;
+
+			  	&:hover{
+			  		background: $gris-oscuro-over;
+			  		@include animationAll(.5s);
+			  	}
+				p{
+			  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+					display: table-cell;
+					vertical-align: middle;
+					padding: 17px;
+			  		color: $white;
+			  		font-size: 2.6em;
+					text-align: left;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+			}
+			.parallax-sustainability{
+				
+				position: relative;	
+				height: 480px;
+				overflow: hidden;
+				padding: 0;
+
+				figure{
+
+					  background-image: url("../img/img-sustainable-sustainability.jpg");
+					  background-size: cover;
+					  background-position: center;
+					  background-repeat: no-repeat;
+					  height:130%;
+					  position: relative;
+					  right: 0;
+					  margin: 0;
+				}
+
+			}
+			.txt-parallax{
+
+				padding: 0;
+
+				p:first-child{
+					font-size: 2.6em;
+					font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+					color: $verde;
+					margin: 30px 0;
+					letter-spacing: 2px;
+					line-height: 1.2;
+				}
+				p:last-child{
+					width: 70%;
+				}
+			}
+		}
+	}
+	
+}
+
+
+@media #{$medium-only} {
+	.sustainability{
+		
+		.row{
+			padding: 0;
+		}
+		.banner{
+			background-position: right bottom;
+			height: 40em;
+			left: 0;
+			top: 0;
+			position: relative;
+			margin: 70px 0;
+			
+			.box-info{
+			  	width: 50%;
+			  	height: 100%;
+			  	display: block;
+			  	position: absolute;
+			  	bottom: 0;
+			  	right: 0;
+
+			  	p{
+			  		display: inline-block;
+			  		padding: 37px 17px;
+			  		vertical-align: baseline;
+			  	}
+			}
+		}
+		.section-1-sustainability{
+		
+			.content-1-section{
+				max-width: 100%;
+				float: none;
+				padding: 0;
+				width: 600px;
+				margin: 4em auto 6em auto;
+
+				.box-1-section{
+					padding: 0;
+
+					img{
+						margin: 0 0 30px 0;
+					}
+					p:last-child{
+						width: 90%;
+					}
+				}
+				.title-1-section{
+					line-height: 28px;
+				}
+				.logo-giglio{
+					
+					width: 130px;
+				}
+			}
+
+			.copy-sustainability{
+
+				margin: 0 0 3em 0;
+
+				.column-2{
+
+					column-count: 2;
+				}
+			}
+		}
+		.section-2-sustainability{
+			
+			padding: 0 11em;
+
+			.box-color{
+				z-index: 1;
+				position: absolute;
+			}
+
+			.parallax-right{
+				top: 0;
+				position: relative;
+				margin: 5em auto;
+				width: 600px;
+				max-width: 100%;
+				padding: 0 0 0 10%;
+
+				.box-210{
+					left: auto;
+					right: -47px;
+				}
+			}
+			.parallax-left{
+
+				top: 0;
+				position: relative;
+				float: none;
+				margin: 5em auto;
+				width: 600px;
+				max-width: 100%;
+				padding: 0 10% 0 0;
+				
+				.box-210{
+
+				  	position: absolute;
+				  	top: 0;
+		  			left: -10em;
+				}
+			}
+		}
+	}
+}
+@media #{$small-only} {
+
+	.sustainability{
+
+		.banner{
+			background-image: url('../img/img-central-sustainability.jpg');
+			background-position: center bottom;
+			background-size: cover;
+			height: 370px;
+			width: 100%;
+			background-repeat: no-repeat;
+			left: 0;
+			top: 0;
+			position: relative;
+			margin: 7em 0 0 0;
+			
+		}
+		.section-1-sustainability{
+		
+			.content-1-section{
+				max-width: 100%;
+				float: none;
+				padding: 0;
+				width: 100%;
+				margin: 4em auto 6em auto;
+
+				.box-1-section{
+					padding: 0;
+					margin: 2em 0;
+
+					img{
+						margin: 0 0 30px 0;
+						width: 100%;
+  						padding: 10px;
+					}
+					p{
+						width: 90%;
+						padding: 0 10px;
+  						margin: 0 0 2em 0;
+					}
+				}
+				.title-1-section{
+					line-height: 28px;
+				}
+			}
+
+			.copy-sustainability{
+
+				margin: 5em 0 3em 0;
+
+				.column-2{
+
+					column-count: 1;
+					
+				}
+			}
+		}
+		.section-2-sustainability{
+			
+
+			.box-color{
+				z-index: 1;
+				position: relative;
+			}
+
+			.parallax-right{
+				top: 0;
+				position: relative;
+				margin: 5em auto;
+				width: 100%;
+				max-width: 100%;
+				padding: 0 10px;
+
+				.box-210{
+					left: auto;
+					right: 0;
+					width: 100%;
+					position: relative;
+				}
+				.parallax-sustainability {
+
+					position: relative;
+					height: 370px;
+					overflow: hidden;
+					padding: 0;
+				}
+			}
+			.parallax-left{
+
+				top: 0;
+				position: relative;
+				margin: 5em auto;
+				width: 100%;
+				max-width: 100%;
+				padding: 10px;
+				
+				.box-210{
+
+				  	left: auto;
+					right: 0;
+					width: 100%;
+					position: relative;
+				}
+				.parallax-sustainability {
+
+					position: relative;
+					height: 370px;
+					overflow: hidden;
+					padding: 0;
+				}
+
+			}
+		}
+		.box-info{
+		  	width: 100%;
+		  	height: 21em;
+		  	background: $verde;
+		  	position: relative;
+		  	bottom: 0;
+
+		  	&:hover{
+		  		background: $verde-over;
+		  		@include animationAll(.5s);
+		  	}
+
+		  	p{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+		  		font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+		  	}
+		}
+	}
+}
+@media screen and (min-width: 1000px) and (max-width:1200px){
+	.sustainability .section-2-sustainability .parallax-left .box-210 {
+		position: relative;
+		left: -84px;
+	}
+	.sustainability .section-1-sustainability .copy-sustainability {
+		margin: 6em 0 0 0;
+		padding: 0;
+	}
+	.sustainability .section-2-sustainability .parallax-left {
+		top: -17em;
+	}
+	.sustainability .section-1-sustainability .content-1-section .title-1-section {
+		font-size: 2.2em;
+	}
+	.sustainability .section-1-sustainability .copy-sustainability .title-sustainability {
+		margin: 0 0 1em 0;
+	}
+	.sustainability .section-1-sustainability .copy-sustainability .title-sustainability {
+		line-height: 30px;
+	}
+}

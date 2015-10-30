@@ -1,0 +1,131 @@
+/*SE DEBERA DIVIDIR EN DOS ARCHIVOS EL APP.MIN.CSS COMPILADO PARA QUE LOS ESTILOS FUNCIONEN EN IE 9 UNICAMENTE*/
+body{
+	font-family: $txtBase;
+	font-weight: 400;
+	color: $colorBase;
+	font-size: 10px;
+	-webkit-font-smoothing: subpixel-antialiased;
+    width:100%;
+}
+ul, ol, dl{
+	font-size: 10px
+}
+p{
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 1.3em;
+	line-height: 20px;
+	text-rendering: optimizeLegibility;
+	text-align: left;
+	-webkit-font-smoothing: antialiased;
+}
+a, button{
+	outline: none;
+}
+button:focus{
+	background-color: #ebeeee;
+	border-color: #cccccc;
+	color: #333333;
+}
+.thin{
+	font-family: "ff-enzo-web";
+	font-weight: 100;
+	font-style: normal;
+}
+.thinItal{
+	font-family: "ff-enzo-web";
+	font-weight: 100;
+	font-style: italic;
+}
+.light{
+	font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: normal;
+}
+.lightItal{
+	font-family: "ff-enzo-web";
+	font-weight: 300;
+	font-style: italic;
+}
+.medium{
+	font-family: "ff-enzo-web";
+	font-weight: 600;
+	font-style: normal;
+}
+.mediumItal{
+	font-family: "ff-enzo-web";
+	font-weight: 600;
+	font-style: italic;
+}
+.bold{
+	font-family: "ff-enzo-web";
+	font-weight: 700;
+	font-style: normal;
+}
+.boldItal{
+	font-family: "ff-enzo-web";
+	font-weight: 700;
+	font-style: italic;
+}
+.black{
+	font-family: "ff-enzo-web";
+	font-weight: 900;
+	font-style: normal;
+}
+.blackItal{
+	font-family: "ff-enzo-web";
+	font-weight: 900;
+	font-style: italic;
+}
+.img-left-banner{
+  float: left;
+  background-position: center bottom;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+}
+.img-right-banner{
+	background-position: center bottom;
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0;
+	float: right;
+}
+.right-small{
+	display:none;
+	visibility: hidden;
+}
+.right-off-canvas-menu{
+	display:none;
+	visibility: hidden;
+}
+.box-300{
+	width:30em;
+  	height:30em;
+  	display: table;
+}
+@media #{$small-only} {
+
+	.row {
+	    padding: 0 0.625rem;
+	}
+
+}
+@media #{$medium-only} {
+
+	.row {
+	    padding: 0 1em;
+	}
+
+}
+@media #{$large} {
+
+	.row {
+	    padding: 0 1em;
+	}
+	
+}

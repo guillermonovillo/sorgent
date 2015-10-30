@@ -1,0 +1,272 @@
+.restoration{
+
+	margin: 0 0 60px 0;
+
+	.banner{
+		background-image: url('../img/img-central-restoration.jpg');
+		background-position: center bottom;
+		background-size: cover;
+		height: 48em;
+		width: 100%;
+		background-repeat: no-repeat;
+		left: 0;
+		top: 0;
+		position: relative;
+		
+		.box-info{
+		  	width:30em;
+		  	height:30em;
+		  	display: table;
+		  	background: $marron;
+		  	@include animationAll(.5s);
+		  	cursor: pointer;
+		  	text-transform: uppercase;
+		  	position: absolute;
+		  	bottom: -70px;
+
+		  	&:hover{
+		  		background: $gris-oscuro-over;
+		  		@include animationAll(.5s);
+		  	}
+
+		  	p{
+		  		color: $white;
+		  		font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+		  		font-size: 3em;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+				letter-spacing: 2px;
+				padding: 17px;
+				line-height: 1.2;
+		  	}
+		}
+	}
+	.section-1-restoration{
+		
+		.content-1-section{
+			max-width: 50%;
+			float: left;
+			padding: 0;
+			width: 600px;
+			margin: 15em 0 0 0;
+
+			div:first-child{
+				margin: 15.15em 0 0 0;
+			}
+
+			.box-1-section{
+				padding: 0;
+
+				img{
+					margin: 0 0 30px 0;
+				}
+			}
+			.title-1-section{
+				font-size: 2.6em;
+				line-height: 36px;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				margin: 0 0 80px 0;
+				color: $marron;
+				padding: 0;
+			}
+			.logo-giglio{
+				position: absolute;
+				top: 62px;
+				right: -80px;
+				transform: rotate(20deg);
+			}
+		}
+
+		.copy-restoration{
+
+			margin: 7em 0 0 0;
+
+			.title-restoration{
+
+				font-size: 2.6em;
+				font-family: "ff-enzo-web";
+				font-weight: 300;
+				font-style: normal;
+				color: #8f9a9d;
+				margin: 0 0 1.5em 0;
+				letter-spacing: 2px;
+				line-height: 1.2;
+			}
+
+			img{
+				margin: 3em 0 0 0;
+  				transform: rotate(20deg);
+			}
+
+		}
+	}	
+}
+
+@media #{$small-only} {
+	.restoration{
+
+		.banner{
+			background-position: right bottom;
+			height: 37em;
+			margin: 70px 0 0 0;
+			position: relative;
+			
+			.box-info{
+			  	width: 100%;
+			  	height: 100%;
+			  	display: table;
+			  	position: relative;
+			  	bottom: 0;
+			  	right: 0;
+			}
+		}
+		.section-1-restoration{
+			
+			&.row{
+					padding: 0;
+				}
+			.column-2{
+
+				column-count: 1;
+			}
+			.content-1-section{
+				max-width: 100%;
+				float: none;
+				padding: 0;
+				width: 100%;
+				margin: 5em auto;
+
+				div:first-child{
+					margin: 50px 0 0 0;
+				}
+
+				.box-1-section{
+					padding: 0;
+
+					img{
+						margin: auto;
+						width: 80%;
+						margin-left: 10%;
+					}
+				}
+				.title-1-section{
+					  margin: 0px 0 66px 10%;
+					padding: 0;
+				}
+				.logo-giglio {
+					
+					top: 29px;
+					display:none;
+				}
+			}
+
+			.copy-restoration{
+
+				margin: 5em 0 0 0;
+				
+
+				.title-restoration{
+
+					margin: 0 0 1.5em 0;
+
+				}
+
+				img{
+					margin: 3em 0 0 0;
+	  				transform: rotate(20deg);
+				}
+
+			}
+		}	
+	}
+
+}
+@media #{$medium-only} {
+
+	.restoration{
+
+		.banner{
+			background-position: right bottom;
+			height: 40em;
+			margin: 70px 0;
+			
+			.box-info{
+			  	width: 50%;
+			  	height: 100%;
+			  	display: block;
+			  	position: absolute;
+			  	bottom: 0;
+			  	right: 0;
+
+			  	p{
+			  		display: inline-block;
+			  		padding: 37px 17px;
+			  		vertical-align: baseline;
+			  	}
+			}
+		}
+		.section-1-restoration{
+			
+			&.row{
+					padding: 0;
+				}
+			.column-2{
+
+				column-count: 2;
+			}
+			.content-1-section{
+				max-width: 600px;
+				float: none;
+				padding: 0;
+				width: 80%;
+				margin: 5em auto;
+
+				div:first-child{
+					margin: 148px 0 0 0;
+				}
+
+				.box-1-section{
+					padding: 0;
+
+					img{
+						margin: 0 0 30px 0;
+					}
+				}
+				.title-1-section{
+					margin: 28px 0 48px -99%;
+					padding: 0;
+				}
+				.logo-giglio {
+					
+					width: 130px;
+					top: 68px;
+					right: -69px;
+				}
+			}
+
+			.copy-restoration{
+
+				margin: 0;
+				
+
+				.title-restoration{
+
+					margin: 0 0 1.5em 0;
+
+				}
+
+				img{
+					margin: 3em 0 0 0;
+	  				transform: rotate(20deg);
+				}
+
+			}
+		}	
+	}
+
+}
